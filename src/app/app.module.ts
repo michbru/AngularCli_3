@@ -12,11 +12,13 @@ import { BootTableComponent } from './boot-table/boot-table.component';
 import { BootTableService } from './boot-table/boot-table.service';
 import { ProductsComponent } from './products/products.component';
 import { ProductsService } from './products/products.service';
+import { HomeComponent } from './home/home.component';
+import { SoonComponent } from './soon/soon.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    BootTableComponent,DataFilterPipe, ProductsComponent
+    BootTableComponent,DataFilterPipe, ProductsComponent, HomeComponent, SoonComponent
   ],
   imports: [
     BrowserModule,
